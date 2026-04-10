@@ -1,0 +1,42 @@
+{
+  "name": "hydro-marker-station",
+  "version": "1.0.0",
+  "description": "Hydro-marker desktop dashboard and ground station application.",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Enzo Morin",
+  "type": "commonjs",
+  "main": "./src/main/main.js",
+  "scripts": {
+    ".": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "make:win": "electron-forge make --platform win32",
+    "make:mac": "electron-forge make --platform darwin",
+    "make:linux": "electron-forge make --platform linux"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.11.1",
+    "@electron-forge/maker-deb": "^7.11.1",
+    "@electron-forge/maker-rpm": "^7.2.0",
+    "@electron-forge/maker-squirrel": "^7.11.1",
+    "@electron-forge/maker-zip": "^7.11.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.11.1",
+    "@electron-forge/plugin-fuses": "^7.11.1",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^39.2.7"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "dotenv": "^17.3.1",
+    "electron-squirrel-startup": "^1.0.1",
+    "leaflet": "^1.9.4",
+    "lucide": "^0.563.0",
+    "papaparse": "^5.5.3",
+    "serialport": "^13.0.0"
+  },
+  "config": {
+    "forge": "./forge.config.js"
+  }
+}

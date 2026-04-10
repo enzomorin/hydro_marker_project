@@ -1,0 +1,50 @@
+#---- Environment files ----
+.venv/
+.env*
+
+#---- vscode config -----
+.vscode/
+
+#---- Python ----
+**/__pycache__/
+
+#---- Database ----
+server/src/database/
+
+#---- Node.js ----
+node_modules/
+out/
+
+#---- PlatfromIO ----
+.pio/
+*.pioenvs
+*.elf
+*.bin
+*.hex
+*.dmp
+
+#---- KiCad ----
+*.kicad_sch-bak
+*.kicad_pcb-bak
+.cache/
+*.tmp
+*.bak
+*.drl
+*.gbr
+*.net
+
+#---- backup of KiCad project ----
+hardware/src/*backups
+*.zip
+
+#---- Logs ----
+log/
+*.log
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#---- System, IDE ----
+.DS-Store
+Thumbs.db
