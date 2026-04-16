@@ -58,4 +58,3 @@ Thumbs.db
 #---- Expection ----
 !server/.vscode/
 server/
-tools/
