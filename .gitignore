@@ -7,9 +7,15 @@
 
 #---- Python ----
 **/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
 
 #---- Database ----
-server/src/database/
+server/data/
+*.db
+*.db-wal
+*.db-shm
 
 #---- Node.js ----
 node_modules/
@@ -48,3 +54,8 @@ yarn-error.log*
 #---- System, IDE ----
 .DS-Store
 Thumbs.db
+
+#---- Expection ----
+!server/.vscode/
+server/
+tools/

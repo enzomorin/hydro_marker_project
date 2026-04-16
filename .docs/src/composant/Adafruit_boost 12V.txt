@@ -1,0 +1,3 @@
+Adafruit 12V Bias Voltage Boost Converter - TPS61040
+
+15.2 × 10 mm
