@@ -36,8 +36,9 @@ out/
 *.tmp
 *.bak
 *.drl
-*.gbr
 *.net
+fp-*
+sym-*
 
 #---- backup of KiCad project ----
 hardware/src/*backups
