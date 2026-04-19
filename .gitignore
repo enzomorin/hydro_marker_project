@@ -30,8 +30,7 @@ out/
 *.dmp
 
 #---- KiCad ----
-*.kicad_sch-bak
-*.kicad_pcb-bak
+.history/
 .cache/
 *.tmp
 *.bak
@@ -39,6 +38,7 @@ out/
 *.net
 fp-*
 sym-*
+*lib-table
 
 #---- backup of KiCad project ----
 hardware/src/*backups
