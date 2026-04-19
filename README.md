@@ -29,12 +29,11 @@ hydro_marker_project/
 │
 ├── hardware/       PCB design files (KiCad)
 │                   Optimised circuit board for the markers — reduces electrical
-│                   noise and improves efficiency. (work in progress)
+│                   noise and improves efficiency.
 │
 ├── server/         API server
 │                   FastAPI + SQLite REST API that stores marker locations
 │                   and all associated measurement data.
-│                   See server/README.md for full documentation.
 │
 ├── site/           Promotional website
 │                   Presents the product and its specifications.
@@ -58,8 +57,7 @@ To run the API server locally, see [`server/README.md`](server/README.md).
 | Component | Technology |
 |---|---|
 | API server | Python, FastAPI, SQLite |
-| Firmware (marker) | C / C++ (MCU) |
-| Firmware (antenna) | C / C++ |
+| Firmware | C++ (MCU), PlatfromIO IDE |
 | PCB design | KiCad |
-| Dashboard | TBD |
-| Website | TBD |
+| Dashboard | Electron, Javascript |
+| Website | HTML, CSS, Javascript |

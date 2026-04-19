@@ -52,6 +52,7 @@ pyenv local 3.12
 **3. Create and activate a virtual environment**
  
 ```bash
+virtualenv .venv             # Fedora only
 python -m venv .venv
  
 source .venv/bin/activate    # Linux / macOS
@@ -112,17 +113,17 @@ Every request must include an `X-Api-Key` header. There are two access levels:
  
 | Key | Header value | Access |
 |---|---|---|
-| Antenna key (`API_KEY`) | `X-Api-Key: your_antenna_secret_key` | Read data + push readings |
-| Admin key (`ADMIN_KEY`) | `X-Api-Key: your_admin_secret_key` | Full access |
+| Antenna key (`API_KEY`) | `X-Api-Key: your_antenna_key` | Read data + push readings |
+| Admin key (`ADMIN_KEY`) | `X-Api-Key: your_admin_key` | Full access |
  
-The antenna key is safe to flash into hardware firmware. If it is ever compromised, an attacker can only push fake readings — they cannot delete markers or wipe data.
+Implemente two key is very useful, if an attacker find a way to hack the ground station and extract the antenna_key, he can only read and push data and cannot delete markers and measurements.
  
 ```bash
 # Example with antenna key
-curl -H "X-Api-Key: your_antenna_secret_key" http://127.0.0.1:8000/api/v1/markers/
+curl -H "X-Api-Key: your_antenna_key" http://127.0.0.1:8000/api/v1/markers/
  
 # Example with admin key
-curl -H "X-Api-Key: your_admin_secret_key" http://127.0.0.1:8000/api/v1/markers/
+curl -H "X-Api-Key: your_admin_key" http://127.0.0.1:8000/api/v1/markers/
 ```
  
 ---
@@ -133,7 +134,7 @@ curl -H "X-Api-Key: your_admin_secret_key" http://127.0.0.1:8000/api/v1/markers/
 Return the list of all active markers.
  
 ```bash
-curl -H "X-Api-Key: your_antenna_secret_key" \
+curl -H "X-Api-Key: your_antenna_key" \
   http://127.0.0.1:8000/api/v1/markers/
 ```
  
@@ -145,7 +146,7 @@ Add `?include_deleted=true` to also return soft-deleted markers.
 Return one specific marker by its ID.
  
 ```bash
-curl -H "X-Api-Key: your_antenna_secret_key" \
+curl -H "X-Api-Key: your_antenna_key" \
   http://127.0.0.1:8000/api/v1/markers/1
 ```
  
@@ -156,9 +157,9 @@ Register a new physical marker.
  
 ```bash
 curl -X POST \
-  -H "X-Api-Key: your_admin_secret_key" \
+  -H "X-Api-Key: your_admin_key" \
   -H "Content-Type: application/json" \
-  -d '{"name": "Pont-Neuf", "location": "48.8566,2.3522"}' \
+  -d '{"name": "La-loire", "location": "48.8566,2.3522"}' \
   http://127.0.0.1:8000/api/v1/markers/
 ```
  
@@ -166,7 +167,7 @@ curl -X POST \
 |---|---|---|---|---|
 | `name` | string | ✓ | — | Human-readable label |
 | `location` | string | ✓ | — | GPS coordinates as `"lat,lon"` |
-| `radius` | integer | | `500` | Alert radius in metres |
+| `radius` | integer | | `500` | measure radius in metres |
 | `is_active` | boolean | | `true` | Whether the marker is receiving data |
  
 ---
@@ -176,7 +177,7 @@ Update one or more fields of an existing marker. Only send the fields you want t
  
 ```bash
 curl -X PATCH \
-  -H "X-Api-Key: your_admin_secret_key" \
+  -H "X-Api-Key: your_admin_key" \
   -H "Content-Type: application/json" \
   -d '{"is_active": false}' \
   http://127.0.0.1:8000/api/v1/markers/1
@@ -189,7 +190,7 @@ Move a marker to the trash (soft delete — recoverable).
  
 ```bash
 curl -X DELETE \
-  -H "X-Api-Key: your_admin_secret_key" \
+  -H "X-Api-Key: your_admin_key" \
   http://127.0.0.1:8000/api/v1/markers/1
 ```
  
@@ -200,7 +201,7 @@ Recover a soft-deleted marker from the trash.
  
 ```bash
 curl -X PUT \
-  -H "X-Api-Key: your_admin_secret_key" \
+  -H "X-Api-Key: your_admin_key" \
   http://127.0.0.1:8000/api/v1/markers/1/restore
 ```
  
@@ -211,7 +212,7 @@ Permanently delete a marker and **all its readings**. This is irreversible.
  
 ```bash
 curl -X DELETE \
-  -H "X-Api-Key: your_admin_secret_key" \
+  -H "X-Api-Key: your_admin_key" \
   http://127.0.0.1:8000/api/v1/markers/1/purge
 ```
  
@@ -224,7 +225,7 @@ Push a single sensor frame from the antenna.
  
 ```bash
 curl -X POST \
-  -H "X-Api-Key: your_antenna_secret_key" \
+  -H "X-Api-Key: your_antenna_key" \
   -H "Content-Type: application/json" \
   -d '{
     "marker_id": 1,
@@ -255,7 +256,7 @@ Push multiple frames in one request. Useful when the antenna was offline and has
  
 ```bash
 curl -X POST \
-  -H "X-Api-Key: your_antenna_secret_key" \
+  -H "X-Api-Key: your_antenna_key" \
   -H "Content-Type: application/json" \
   -d '[
     {"marker_id": 1, "water_level": 1.40, "temperature": 14.2},
@@ -271,7 +272,7 @@ curl -X POST \
 Return the most recent reading for a specific marker. This is the endpoint to call for a live dashboard tile.
  
 ```bash
-curl -H "X-Api-Key: your_antenna_secret_key" \
+curl -H "X-Api-Key: your_antenna__key" \
   "http://127.0.0.1:8000/api/v1/readings/latest?marker_id=1"
 ```
  
@@ -283,18 +284,18 @@ Return a paginated list of readings with optional filters.
 | Parameter | Type | Description |
 |---|---|---|
 | `marker_id` | integer | Filter by marker |
-| `since` | ISO-8601 datetime | Lower bound on measurement time |
-| `until` | ISO-8601 datetime | Upper bound on measurement time |
+| `since` | datetime | Lower bound on measurement time |
+| `until` | datetime | Upper bound on measurement time |
 | `limit` | integer (1–1000) | Max rows to return, default `100` |
 | `offset` | integer | Rows to skip, for pagination |
  
 ```bash
 # All readings for marker 1
-curl -H "X-Api-Key: your_antenna_secret_key" \
+curl -H "X-Api-Key: your_antenna_key" \
   "http://127.0.0.1:8000/api/v1/readings/?marker_id=1"
  
 # Page 2 (rows 101–200)
-curl -H "X-Api-Key: your_antenna_secret_key" \
+curl -H "X-Api-Key: your_antenna_key" \
   "http://127.0.0.1:8000/api/v1/readings/?marker_id=1&limit=100&offset=100"
 ```
  
@@ -304,7 +305,7 @@ curl -H "X-Api-Key: your_antenna_secret_key" \
 Return one specific reading by its numeric ID.
  
 ```bash
-curl -H "X-Api-Key: your_antenna_secret_key" \
+curl -H "X-Api-Key: your_antenna_key" \
   http://127.0.0.1:8000/api/v1/readings/42
 ```
  
@@ -315,7 +316,7 @@ Permanently delete one reading. Use this to remove bad data from a faulty sensor
  
 ```bash
 curl -X DELETE \
-  -H "X-Api-Key: your_admin_secret_key" \
+  -H "X-Api-Key: your_admin_key" \
   http://127.0.0.1:8000/api/v1/readings/42
 ```
  
