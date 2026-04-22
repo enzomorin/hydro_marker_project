@@ -1,0 +1,177 @@
+(footprint "Adafruit_TPS61040_5644"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Adafruit 12V Boost Converter TPS61040 5644 - 17.78x12.7mm - 4pin 2.54mm - 1xM2")
+	(tags "Adafruit TPS61040 5644 12V boost")
+	(property "Reference" "U"
+		(at 0 -9 0)
+		(layer "F.SilkS")
+		(uuid "af6f4f45-f873-41c4-bd06-9f814b6e401e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "Adafruit_TPS61040_5644"
+		(at 0 9 0)
+		(layer "F.Fab")
+		(uuid "96d2600e-d0dc-44ba-8b14-2a23d75f8a7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb06ebd6-ed2b-45d7-a2d3-84b79da649d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17d68498-4327-41eb-bdb0-c22a1f27907c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -8.5 -6.5)
+		(end 9.28 6.2)
+		(radius 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "49c9a7ee-89b1-454d-82c7-32ef5e1fae81")
+	)
+	(fp_circle
+		(center 6.39 0)
+		(end 8.39 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3c9ac063-0504-4c0c-b156-9c7ac4eacbb9")
+	)
+	(fp_rect
+		(start -9.89 -7.35)
+		(end 9.89 7.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e2edfdd2-f9fd-465c-84a3-7172d8e257cc")
+	)
+	(fp_text user "IN"
+		(at -4.6 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "51691b80-cb63-4278-971b-f9aab9fca2f7")
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -4.6 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "ded5f08f-fdfb-4e0d-b1f4-3a0cf29d96cb")
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+		)
+	)
+	(fp_text user "12V"
+		(at -4.6 1.27 0)
+		(layer "F.SilkS")
+		(uuid "8cf2fc85-f240-4661-bf34-d31a2b104061")
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+		)
+	)
+	(fp_text user "EN"
+		(at -4.6 3.81 0)
+		(layer "F.SilkS")
+		(uuid "4b1f07d7-62af-404d-9db2-dce1d2d5e146")
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+		)
+	)
+	(fp_text user "M2"
+		(at 6.39 1.75 0)
+		(layer "F.Fab")
+		(uuid "3db9fe2b-c2ee-48ef-ae00-8f16e5be671f")
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -6.35 -3.81)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4bd91005-66d4-4423-9567-82c355f2ace1")
+	)
+	(pad "2" thru_hole circle
+		(at -6.35 -1.27)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7848293-cfa4-4dbf-ba5c-f8df11b3831c")
+	)
+	(pad "3" thru_hole circle
+		(at -6.35 1.27)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13af6563-7c9b-4d36-9e5e-ad34b56ba131")
+	)
+	(pad "4" thru_hole circle
+		(at -6.35 3.81)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a25f2dbc-9ac2-4faa-93bb-96e1e756ebd8")
+	)
+	(pad "MH1" thru_hole circle
+		(at 6.39 0)
+		(size 4.2 4.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9875e4f4-7925-4812-bf1f-6478125bca09")
+	)
+	(embedded_fonts no)
+)

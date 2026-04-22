@@ -1,0 +1,80 @@
+(kicad_symbol_lib
+  (version 20231120)
+  (generator kicad_symbol_editor)
+  (symbol "SEN0262_DFRobot"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -6.35 8.89 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SEN0262_DFRobot"
+      (at -6.35 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "SEN0262_DFRobot:SEN0262_DFRobot"
+      (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://wiki.dfrobot.com/sen0262/"
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "DFRobot Gravity 4-20mA to 0-3V analog current to voltage converter"
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "SEN0262"
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SEN0262_DFRobot_0_1"
+      (rectangle
+        (start -6.35 -7.62)
+        (end 6.35 7.62)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+      (text "4~20mA → 0~3V"
+        (at 0 2.54 0)
+        (effects (font (size 1.016 1.016) (italic yes)) (justify center))
+      )
+      (text "SEN0262"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27) (bold yes)) (justify center))
+      )
+      (text "DFRobot Gravity"
+        (at 0 -2.54 0)
+        (effects (font (size 0.889 0.889) (italic yes)) (justify center))
+      )
+    )
+    (symbol "SEN0262_DFRobot_1_1"
+      (pin power_in at -10.16 5.08 0
+        (length 3.81)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in at -10.16 7.62 0
+        (length 3.81)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin output at 10.16 5.08 180
+        (length 3.81)
+        (name "SIGNAL" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input at -10.16 -2.54 0
+        (length 3.81)
+        (name "I+" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin input at -10.16 -5.08 0
+        (length 3.81)
+        (name "I-" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
