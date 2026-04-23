@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "main_pcb:Adafruit_TPS61040_5644"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -223,7 +223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "main_pcb:BME280"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1179,7 +1179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "main_pcb:OpenLog"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

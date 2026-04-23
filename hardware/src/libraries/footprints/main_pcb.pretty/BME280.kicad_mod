@@ -1,0 +1,180 @@
+(footprint "BME280"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "AZ-Delivery GY-BME280 breakout - 9x11mm - 4-pin 2.54mm pitch - VIN GND SCL SDA")
+	(tags "AZDelivery GY BME280 breakout I2C temperature pressure humidity")
+	(property "Reference" "U"
+		(at 1.75 -6.25 0)
+		(layer "F.SilkS")
+		(uuid "c67adac0-a3c3-4b8f-bf8e-6588d08a5b51")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Value" "AZDelivery_GY_BME280"
+		(at 1.75 6.6 0)
+		(layer "F.Fab")
+		(uuid "357b68b9-4842-4ebc-ad39-a8789bde1f2b")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5925238-d3ac-4f53-8da8-541fe34efede")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cce75b8-be98-46f0-bd09-1f0b25bbd515")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -5 -5.5)
+		(end 8.6 5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e9b1bc4c-1c28-4ae2-8738-92395598a315")
+	)
+	(fp_rect
+		(start -5.1 -5.6)
+		(end 8.7 5.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cb0465a1-d6e9-4840-8c9e-97ab80fc0ba3")
+	)
+	(fp_rect
+		(start -5 -5.5)
+		(end 8.6 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "047e3c20-0695-469c-9225-1f4d7776c743")
+	)
+	(fp_text user "VIN"
+		(at -1.75 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "4227fb8d-4e7d-41d4-9a50-77c3d52b7c96")
+		(effects
+			(font
+				(size 0.65 0.65)
+			)
+		)
+	)
+	(fp_text user "SCL"
+		(at -1.75 1.27 0)
+		(layer "F.SilkS")
+		(uuid "3307cf19-bd13-4aca-8176-dcc316306417")
+		(effects
+			(font
+				(size 0.65 0.65)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -1.65 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "2882f184-df8e-4500-9f87-d158e3600655")
+		(effects
+			(font
+				(size 0.65 0.65)
+			)
+		)
+	)
+	(fp_text user "SDA"
+		(at -1.64 3.81 0)
+		(layer "F.SilkS")
+		(uuid "f4979a3e-c1a6-4c51-b1c0-7605dbe0fba1")
+		(effects
+			(font
+				(size 0.65 0.65)
+			)
+		)
+	)
+	(fp_text user "BME280"
+		(at 3.7 0.05 0)
+		(layer "F.Fab")
+		(uuid "191a69b5-88f7-463b-aa26-9dd39a209001")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.5 -3.81)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5b2c48f-a2e4-4d41-a513-9271cc7cf57e")
+	)
+	(pad "2" thru_hole circle
+		(at -3.5 -1.27)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e463bb88-f6a5-4bbd-819f-e3903b7958a6")
+	)
+	(pad "3" thru_hole circle
+		(at -3.5 1.27)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd29d77e-3ab7-4dd9-bead-d914b10a33fb")
+	)
+	(pad "4" thru_hole circle
+		(at -3.5 3.81)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "84d4b110-8697-4a62-900d-789ef4f5a8c5")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/sosoc/GitHub/hydro_marker_project/hardware/src/libraries/3D_models/BME280.STEP"
+		(offset
+			(xyz -5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
