@@ -4281,16 +4281,16 @@
 		(uuid "3d2af8cc-04f1-4086-8137-a13621640955")
 	)
 	(junction
+		(at 46.99 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e5e8b2a-40c8-4cdc-8459-8f5448e52470")
+	)
+	(junction
 		(at 35.56 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e6b813c-8388-495e-9f18-c975009df737")
-	)
-	(junction
-		(at 198.12 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f435f65-debd-4d30-b578-d8eac56d167f")
 	)
 	(junction
 		(at 45.72 63.5)
@@ -4315,6 +4315,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b4cfcb0-2b1a-4d66-acfc-0654ef317b7f")
+	)
+	(junction
+		(at 198.12 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b589fab-7c8f-42a8-ac50-347b8b091d08")
 	)
 	(junction
 		(at 48.26 35.56)
@@ -4371,22 +4377,10 @@
 		(uuid "71f79123-77db-46a1-b449-c74511ba3b90")
 	)
 	(junction
-		(at 194.31 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "722b324a-c158-4834-875f-224700d4bdb8")
-	)
-	(junction
 		(at 255.27 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bd27654-1840-4ff0-9142-a42ea5939bd8")
-	)
-	(junction
-		(at 194.31 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7db00f2d-7086-4c92-acf7-6a90db37fc56")
 	)
 	(junction
 		(at 121.92 165.1)
@@ -4401,16 +4395,16 @@
 		(uuid "809f0e26-63b3-4b6a-8183-cb3db29d1f8c")
 	)
 	(junction
-		(at 198.12 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8101806c-5dde-44e5-a61c-0419d6997da1")
-	)
-	(junction
 		(at 45.72 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "814d6ebf-6c15-48e8-aae2-27ee226e7ae4")
+	)
+	(junction
+		(at 50.8 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "878b7aee-bf2e-4ea1-91fa-31d299a20ce1")
 	)
 	(junction
 		(at 226.06 88.9)
@@ -4467,12 +4461,6 @@
 		(uuid "a8a05191-175a-4146-b24e-232eb428d46b")
 	)
 	(junction
-		(at 45.72 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aab48189-985c-457d-b8da-b02becee7621")
-	)
-	(junction
 		(at 96.52 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4503,6 +4491,12 @@
 		(uuid "b6abe051-f1e8-4f59-adb2-ab98267fa537")
 	)
 	(junction
+		(at 46.99 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf0f4466-b967-440b-9f20-a1337077e3a3")
+	)
+	(junction
 		(at 48.26 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4513,6 +4507,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6f530f6-70e6-45bb-a89d-c4a149a7c897")
+	)
+	(junction
+		(at 198.12 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cebf1bbb-96ad-48f2-a63f-1a96fb048502")
 	)
 	(junction
 		(at 255.27 116.84)
@@ -4648,6 +4648,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 125.73) (xy 48.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05114deb-7c6d-484a-8a5c-5d057cb5b622")
+	)
+	(wire
+		(pts
 			(xy 44.45 33.02) (xy 44.45 34.29)
 		)
 		(stroke
@@ -4665,6 +4675,16 @@
 			(type default)
 		)
 		(uuid "05616f79-7b09-4211-bb38-aed29f394a33")
+	)
+	(wire
+		(pts
+			(xy 45.72 121.92) (xy 46.99 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069ffea9-505e-4bae-8976-9dc6b084aa9d")
 	)
 	(wire
 		(pts
@@ -4715,6 +4735,16 @@
 			(type default)
 		)
 		(uuid "0cee316b-86b3-4b6e-afba-e1b4e26ea17c")
+	)
+	(wire
+		(pts
+			(xy 44.45 123.19) (xy 45.72 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7a82a4-4bc8-4475-a46a-ea262f1f0be9")
 	)
 	(wire
 		(pts
@@ -4968,6 +4998,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 125.73) (xy 48.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3114c7d0-65c5-4097-925a-d2afc13f4ebb")
+	)
+	(wire
+		(pts
 			(xy 97.79 137.16) (xy 97.79 135.89)
 		)
 		(stroke
@@ -4975,16 +5015,6 @@
 			(type default)
 		)
 		(uuid "32040ecd-b8ee-4887-9e09-908342072af3")
-	)
-	(wire
-		(pts
-			(xy 185.42 156.21) (xy 194.31 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32312764-711f-4488-b3d3-b8b96e0f39a1")
 	)
 	(wire
 		(pts
@@ -5008,7 +5038,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 156.21) (xy 198.12 156.21)
+			(xy 189.23 156.21) (xy 198.12 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5088,7 +5118,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 151.13) (xy 198.12 151.13)
+			(xy 196.85 151.13) (xy 198.12 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5198,7 +5228,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 123.19) (xy 46.99 123.19)
+			(xy 50.8 123.19) (xy 52.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5245,6 +5275,16 @@
 			(type default)
 		)
 		(uuid "4b4c3d4f-c6b2-42fb-92cb-8a8114991c22")
+	)
+	(wire
+		(pts
+			(xy 45.72 127) (xy 45.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e433dbd-8f0a-4448-a172-f046dece939e")
 	)
 	(wire
 		(pts
@@ -5668,7 +5708,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 151.13) (xy 185.42 151.13)
+			(xy 187.96 151.13) (xy 189.23 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5808,6 +5848,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 123.19) (xy 45.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4f77d7-b80f-4ba9-80e7-aca7035d898f")
+	)
+	(wire
+		(pts
 			(xy 77.47 173.99) (xy 77.47 175.26)
 		)
 		(stroke
@@ -5815,6 +5865,16 @@
 			(type default)
 		)
 		(uuid "806085f4-a35a-45b4-98d1-20b774e577a9")
+	)
+	(wire
+		(pts
+			(xy 50.8 123.19) (xy 48.26 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e33d0a-ffb1-4580-b7d7-d7f05ff22322")
 	)
 	(wire
 		(pts
@@ -5908,16 +5968,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 151.13) (xy 194.31 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7ff278-09c7-4d13-972e-123f4c3a53ad")
-	)
-	(wire
-		(pts
 			(xy 260.35 127) (xy 261.62 127)
 		)
 		(stroke
@@ -6005,6 +6055,16 @@
 			(type default)
 		)
 		(uuid "974dd9f9-36ed-4124-9798-393811216a18")
+	)
+	(wire
+		(pts
+			(xy 48.26 123.19) (xy 48.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97660aa0-fd43-4b90-ba95-5163ac987779")
 	)
 	(wire
 		(pts
@@ -6128,6 +6188,26 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 127) (xy 46.99 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41c2a9e-0339-45b5-bca9-d3be373b7131")
+	)
+	(wire
+		(pts
+			(xy 44.45 125.73) (xy 45.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a448e2cd-98ee-4401-8b69-149c2a7c9580")
+	)
+	(wire
+		(pts
 			(xy 226.06 87.63) (xy 224.79 87.63)
 		)
 		(stroke
@@ -6198,6 +6278,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 121.92) (xy 46.99 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae275887-830a-421f-9f63-693673d72255")
+	)
+	(wire
+		(pts
 			(xy 46.99 34.29) (xy 46.99 35.56)
 		)
 		(stroke
@@ -6208,7 +6298,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 121.92) (xy 45.72 123.19)
+			(xy 50.8 121.92) (xy 50.8 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6285,6 +6375,16 @@
 			(type default)
 		)
 		(uuid "b9d7070a-9e23-4529-aff2-589e3142f2c9")
+	)
+	(wire
+		(pts
+			(xy 46.99 127) (xy 45.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf88b88-1dba-432f-8b4c-37d2b266a4b3")
 	)
 	(wire
 		(pts
@@ -6388,16 +6488,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 125.73) (xy 46.99 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9a350ad-c1af-4018-a946-0055464a10bd")
-	)
-	(wire
-		(pts
 			(xy 226.06 83.82) (xy 224.79 83.82)
 		)
 		(stroke
@@ -6475,16 +6565,6 @@
 			(type default)
 		)
 		(uuid "d567049d-d0fa-4c04-85b8-0286e2ac0fb3")
-	)
-	(wire
-		(pts
-			(xy 44.45 123.19) (xy 45.72 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5935961-a594-4820-a231-15e592331443")
 	)
 	(wire
 		(pts
@@ -7024,7 +7104,7 @@
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
-		(at 46.99 123.19 0)
+		(at 52.07 123.19 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -7090,7 +7170,7 @@
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
-		(at 184.15 151.13 180)
+		(at 187.96 151.13 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -7418,7 +7498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 256.54 134.112 90)
 			(hide yes)
 			(show_name no)
@@ -7825,7 +7905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "BS170"
 			(at 109.22 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7836,7 +7916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "main_pcb:TO92"
 			(at 111.76 167.005 0)
 			(hide yes)
 			(show_name no)
@@ -7892,7 +7972,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 46.99 125.73 90)
+		(at 52.07 125.73 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7903,7 +7983,7 @@
 		(dnp no)
 		(uuid "1b5fd64b-e124-433f-8299-7b1403689926")
 		(property "Reference" "#PWR016"
-			(at 53.34 125.73 0)
+			(at 58.42 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7914,7 +7994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 51.816 125.73 90)
+			(at 56.896 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7924,7 +8004,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 125.73 0)
+			(at 52.07 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7935,7 +8015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 125.73 0)
+			(at 52.07 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7946,7 +8026,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 46.99 125.73 0)
+			(at 52.07 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8635,7 +8715,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470 µF - électrolytique"
+		(property "Value" "47 µF - électrolytique"
 			(at 190.246 161.798 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8689,6 +8769,94 @@
 			(project "main_pcb"
 				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS84")
+		(at 39.37 165.1 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e1bc687-583e-43ef-9c3c-2cd972e95a9a")
+		(property "Reference" "Q6"
+			(at 43.942 164.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF9530"
+			(at 42.164 168.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "main_pcb:TRANS_IRF9530"
+			(at 44.45 163.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+			(at 44.45 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 39.37 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab740dc3-8c0e-4333-afd5-1fd34e7dec78")
+		)
+		(pin "1"
+			(uuid "9c81d59e-270a-4615-873a-2f507cc1eeea")
+		)
+		(pin "3"
+			(uuid "1c541abf-9255-44d1-916a-90bbabfb78f1")
+		)
+		(instances
+			(project "main_pcb"
+				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -8767,93 +8935,6 @@
 			(project "main_pcb"
 				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS84")
-		(at 39.37 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f2149df-9b15-47c0-9ec6-059588fffe19")
-		(property "Reference" "Q1"
-			(at 43.942 165.354 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS84"
-			(at 42.164 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 44.45 167.005 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
-			(at 44.45 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
-			(at 39.37 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dbd700df-4fa1-4f2f-a00e-1d48327c319c")
-		)
-		(pin "1"
-			(uuid "cd670af0-f8ba-4756-ac0d-a9be87215846")
-		)
-		(pin "3"
-			(uuid "714e2178-6636-42ff-a481-8b70c3577442")
-		)
-		(instances
-			(project "main_pcb"
-				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8961,8 +9042,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 237.236 86.36 0)
+		(property "Value" "fr107"
+			(at 235.712 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10005,87 +10086,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 194.31 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7519fde2-41b8-4949-9639-f7e4df114ba4")
-		(property "Reference" "C1"
-			(at 193.04 149.606 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2  µF - céramique"
-			(at 185.674 159.258 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 194.31 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 194.31 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ec0f6f15-b195-4113-b6c6-0b8a86ec6fcc")
-		)
-		(pin "1"
-			(uuid "d3cf43ed-f960-4ff3-9690-5636c751db76")
-		)
-		(instances
-			(project "main_pcb"
-				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 41.91 175.26 180)
 		(unit 1)
@@ -10246,7 +10246,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 185.42 156.21 270)
+		(at 189.23 156.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10256,7 +10256,7 @@
 		(dnp no)
 		(uuid "7aaae1f1-a165-4f80-9c9f-30246257e54f")
 		(property "Reference" "#PWR06"
-			(at 179.07 156.21 0)
+			(at 182.88 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10267,7 +10267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.594 156.21 90)
+			(at 184.404 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10277,7 +10277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 156.21 0)
+			(at 189.23 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10288,7 +10288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 156.21 0)
+			(at 189.23 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10299,7 +10299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 185.42 156.21 0)
+			(at 189.23 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10323,7 +10323,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 189.23 151.13 0)
+		(at 193.04 151.13 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10334,7 +10334,7 @@
 		(dnp no)
 		(uuid "7bf37cb9-3382-4533-9a37-c3a403254c55")
 		(property "Reference" "D1"
-			(at 189.484 148.59 0)
+			(at 193.294 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10343,8 +10343,8 @@
 				)
 			)
 		)
-		(property "Value" "SS14"
-			(at 189.23 153.924 0)
+		(property "Value" "1N5819"
+			(at 192.024 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10354,7 +10354,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 189.23 155.575 0)
+			(at 193.04 155.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10365,7 +10365,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 189.23 151.13 0)
+			(at 193.04 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10376,7 +10376,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 189.23 151.13 0)
+			(at 193.04 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,93 +11517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS84")
-		(at 74.93 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aebc3c21-49f6-440c-96e1-44a125f8e4e0")
-		(property "Reference" "Q3"
-			(at 79.756 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS84"
-			(at 77.724 169.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 80.01 167.005 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
-			(at 80.01 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
-			(at 74.93 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2ccdbd9b-b2fd-4c6d-995f-793f6085314e")
-		)
-		(pin "1"
-			(uuid "258efc6d-e2f3-47d7-9e3c-6127062b2c2f")
-		)
-		(pin "3"
-			(uuid "f04d85c0-e248-4b4c-aaca-eedb33dd0a60")
-		)
-		(instances
-			(project "main_pcb"
-				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 92.71 128.27 90)
 		(mirror x)
@@ -11684,7 +11597,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 45.72 121.92 0)
+		(at 50.8 121.92 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11695,7 +11608,7 @@
 		(dnp no)
 		(uuid "b9bb330b-d233-45dd-9583-129cac6f297b")
 		(property "Reference" "#PWR030"
-			(at 45.72 125.73 0)
+			(at 50.8 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11706,7 +11619,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 48.006 118.364 0)
+			(at 53.086 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11717,7 +11630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 121.92 0)
+			(at 50.8 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11728,7 +11641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 121.92 0)
+			(at 50.8 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11739,7 +11652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 45.72 121.92 0)
+			(at 50.8 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12397,6 +12310,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 46.99 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d32b4938-53de-4f44-ad99-b855907aff0f")
+		(property "Reference" "C17"
+			(at 45.212 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220 µF - électrolytique"
+			(at 38.862 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 46.99 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 46.99 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dbec977e-f03d-44c4-bf73-1886ff07a07b")
+		)
+		(pin "1"
+			(uuid "3e289198-3c50-4e89-b24b-30dd2afd9e63")
+		)
+		(instances
+			(project "main_pcb"
+				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 38.1 68.58 180)
 		(unit 1)
@@ -12508,7 +12502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 256.54 117.602 90)
 			(hide yes)
 			(show_name no)
@@ -12532,6 +12526,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 256.54 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 256.54 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 256.54 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 256.54 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12719,6 +12746,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS84")
+		(at 74.93 165.1 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dae4687c-936d-476d-919f-8a7aebe9e5a6")
+		(property "Reference" "Q5"
+			(at 79.502 164.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF9530"
+			(at 77.724 168.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "main_pcb:TRANS_IRF9530"
+			(at 80.01 163.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+			(at 80.01 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 74.93 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c793e09-dba0-4054-8c0b-275150563f1f")
+		)
+		(pin "1"
+			(uuid "a0ef2864-f055-4fb6-94c7-353530c29070")
+		)
+		(pin "3"
+			(uuid "05e31eb1-340a-425e-b9e5-94f50829e5dc")
+		)
+		(instances
+			(project "main_pcb"
+				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 88.9 121.92 270)
 		(unit 1)
@@ -12798,6 +12913,7 @@
 	(symbol
 		(lib_id "Transistor_FET:BSS84")
 		(at 128.27 165.1 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12807,7 +12923,7 @@
 		(dnp no)
 		(uuid "ddb46a21-8c7c-45bb-895d-7364f9404fc7")
 		(property "Reference" "Q4"
-			(at 132.842 165.354 0)
+			(at 132.842 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12817,8 +12933,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS84"
-			(at 130.81 168.91 0)
+		(property "Value" "IRF9530"
+			(at 131.064 168.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12828,8 +12944,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 133.35 167.005 0)
+		(property "Footprint" "main_pcb:TRANS_IRF9530"
+			(at 133.35 163.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12842,7 +12958,7 @@
 			)
 		)
 		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
-			(at 133.35 168.91 0)
+			(at 133.35 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
