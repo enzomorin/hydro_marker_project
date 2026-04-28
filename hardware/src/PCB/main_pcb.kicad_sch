@@ -7835,7 +7835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 96.012 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -8156,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 198.12 144.018 90)
 			(hide yes)
 			(show_name no)
@@ -8237,7 +8237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 99.822 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -8318,7 +8318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 116.84 160.782 90)
 			(hide yes)
 			(show_name no)
@@ -9052,7 +9052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "main_pcb:DIOAD1036W78L470D235"
 			(at 228.6 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -9318,7 +9318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 198.12 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -9480,7 +9480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 66.802 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -9561,7 +9561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 256.54 129.032 90)
 			(hide yes)
 			(show_name no)
@@ -10037,7 +10037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 180.34 117.348 90)
 			(hide yes)
 			(show_name no)
@@ -10353,7 +10353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "main_pcb:DIOAD1036W78L470D235"
 			(at 193.04 155.575 0)
 			(hide yes)
 			(show_name no)
@@ -10512,7 +10512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:JST_1x02_P2.0mm_Horizontal_SMD"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
 			(at 39.37 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10670,7 +10670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 102.362 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -10986,7 +10986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 120.142 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -11065,7 +11065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 198.12 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -11227,7 +11227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 256.54 125.222 90)
 			(hide yes)
 			(show_name no)
@@ -12616,7 +12616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 31.242 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -12697,7 +12697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 46.482 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -13029,7 +13029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 198.12 136.398 90)
 			(hide yes)
 			(show_name no)
@@ -13343,7 +13343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 98.552 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -14082,7 +14082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "main_pcb:R_1206_3216Metric"
 			(at 198.12 140.208 90)
 			(hide yes)
 			(show_name no)

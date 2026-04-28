@@ -3,16 +3,16 @@ import csv
 import random
 from datetime import datetime, timedelta
 
-# ---------------------------
-# Créer le dossier de sortie
-# ---------------------------
+"""
+Create "out" folder directory
+"""
 script_dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.join(script_dir, "out")
 os.makedirs(output_dir, exist_ok=True)
 
-# ---------------------------
-# Nom du fichier CSV unique
-# ---------------------------
+"""
+unique CSV filename
+"""
 def unique_csv_filename(name: str) -> str:
     base_name = name.replace(".csv", "")
     counter = 1
@@ -26,34 +26,39 @@ def unique_csv_filename(name: str) -> str:
 
 filename = unique_csv_filename("sample_data.csv")
 
-# ---------------------------
-# Nombre de secondes à simuler
-# ---------------------------
-num_seconds = 600  # par exemple 10 minutes pour test rapide
 
-# ---------------------------
-# Fonction pour générer des données aléatoires
-# ---------------------------
+"""
+Number of second to simulate
+"""
+num_seconds = 600  # for example 10 minutes here (600 seconds)
+
+
 def generate_sample_data():
+    """
+    Generate random data sample (and harmonize it)
+    """
     temperature = round(random.uniform(-10, 35), 2)       # °C
     pressure = round(random.uniform(950, 1050), 2)        # hPa
-    depth = round(random.uniform(0, 100), 2)              # mètres
-    altitude = round(random.uniform(0, 2000), 2)          # mètres
-    rpm = round(random.uniform(0, 3000), 2)               # tours/min
+    depth = round(random.uniform(0, 100), 2)              # meters
+    altitude = round(random.uniform(0, 2000), 2)          # meters
+    rpm = round(random.uniform(0, 3000), 2)               # tr/min
     cross_section = round(random.uniform(5, 50), 2)       # m²
     return temperature, pressure, depth, altitude, rpm, cross_section
 
-# ---------------------------
-# Générer l'heure de départ
-# ---------------------------
+
+"""
+Generate a date of start
+"""
 start_time = datetime.now()
 
-# ---------------------------
-# Écriture du fichier CSV
-# ---------------------------
+
+
 with open(filename, mode="w", newline="") as csv_file:
+    """
+    Write in the csv file
+    """
     writer = csv.writer(csv_file)
-    # Écrire l'en-tête
+    # Writing header
     writer.writerow(["timestamp", "temperature_C", "pressure_hPa", "depth_m",
                     "altitude_m", "mission_time_s", "rpm", "cross_section_m2"])
     
@@ -63,13 +68,14 @@ with open(filename, mode="w", newline="") as csv_file:
         writer.writerow([timestamp.strftime("%Y-%m-%d %H:%M:%S"),
                         temperature, pressure, depth, altitude,
                         second, rpm, cross_section])
-print(f"Fichier CSV généré : {filename}")
+print(f"CSV file generated : {filename}")
 
-# ---------------------------
-# Lecture et affichage du CSV
-# ---------------------------
-print("Contenu du fichier CSV (5 premières lignes) :")
+
+print("File coontent (5 first rows) :")
 with open(filename, mode="r") as csv_file:
+    """
+    Lecture + showing a sample of the file
+    """
     reader = csv.reader(csv_file)
     for i, row in enumerate(reader):
         print(row)
