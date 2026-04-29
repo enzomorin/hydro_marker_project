@@ -4479,12 +4479,6 @@
 		(uuid "b163a718-4b38-4221-9b99-6c1e11bbb8ef")
 	)
 	(junction
-		(at 185.42 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3863811-a84f-4637-af8d-7900f9b54320")
-	)
-	(junction
 		(at 95.25 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4895,16 +4889,6 @@
 			(type default)
 		)
 		(uuid "213672ae-6086-4935-817b-5d1061341e93")
-	)
-	(wire
-		(pts
-			(xy 184.15 120.65) (xy 185.42 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22072412-c13b-48a9-b08b-d37716959690")
 	)
 	(wire
 		(pts
@@ -6028,16 +6012,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 115.57) (xy 203.2 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c9af3d-b00c-4315-8fd3-5c3069e0cdee")
-	)
-	(wire
-		(pts
 			(xy 251.46 115.57) (xy 252.73 115.57)
 		)
 		(stroke
@@ -6608,7 +6582,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 115.57) (xy 176.53 115.57)
+			(xy 193.04 115.57) (xy 194.31 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6748,7 +6722,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 115.57) (xy 185.42 115.57)
+			(xy 201.93 115.57) (xy 203.2 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7379,7 +7353,7 @@
 	)
 	(hierarchical_label "PressureA"
 		(shape input)
-		(at 175.26 115.57 180)
+		(at 193.04 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7886,6 +7860,7 @@
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 106.68 165.1 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7917,7 +7892,7 @@
 			)
 		)
 		(property "Footprint" "main_pcb:TO92"
-			(at 111.76 167.005 0)
+			(at 111.76 163.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,7 +7905,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 111.76 168.91 0)
+			(at 111.76 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10008,7 +9983,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 115.57 90)
+		(at 198.12 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10018,7 +9993,7 @@
 		(dnp no)
 		(uuid "71ec7c14-bef3-4282-8191-f582c1111bdf")
 		(property "Reference" "R6"
-			(at 180.34 115.57 90)
+			(at 198.12 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10028,7 +10003,7 @@
 			)
 		)
 		(property "Value" "1k Ω"
-			(at 180.086 113.538 90)
+			(at 197.866 117.602 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10038,7 +10013,7 @@
 			)
 		)
 		(property "Footprint" "main_pcb:R_1206_3216Metric"
-			(at 180.34 117.348 90)
+			(at 198.12 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10049,7 +10024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 115.57 0)
+			(at 198.12 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10060,7 +10035,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 180.34 115.57 0)
+			(at 198.12 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10512,7 +10487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 39.37 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10555,83 +10530,6 @@
 			(project "main_pcb"
 				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 184.15 120.65 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81248ffa-0819-40cd-9ed1-1c857213fdb9")
-		(property "Reference" "#PWR033"
-			(at 177.8 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.324 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1684 1.1684)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 184.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4edf6146-7bd3-47fe-9476-a602b1eecb9c")
-		)
-		(instances
-			(project "main_pcb"
-				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11108,87 +11006,6 @@
 			(project "main_pcb"
 				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 185.42 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a04c9312-02e0-4163-b0a3-de8df8e25908")
-		(property "Reference" "C16"
-			(at 183.642 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF - céramique"
-			(at 176.276 104.902 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 185.42 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 185.42 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4949a5c8-0718-4b3a-81ee-7685ea1ea831")
-		)
-		(pin "1"
-			(uuid "cf5df044-b1f0-43c6-9e76-2b4d796a316c")
-		)
-		(instances
-			(project "main_pcb"
-				(path "/f7c433f5-979d-4748-9c6b-df3b09da91ad"
-					(reference "C16")
 					(unit 1)
 				)
 			)
