@@ -2681,7 +2681,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "main_pcb:CC1101"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4526,13 +4526,23 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 135.89) (xy 261.62 135.89)
+			(xy 260.35 140.97) (xy 261.62 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "10953cb5-37b5-4d78-be29-91bbcc8996ca")
+	)
+	(wire
+		(pts
+			(xy 251.46 140.97) (xy 252.73 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ba3e12-2f01-4b2c-9f65-25226fa95df8")
 	)
 	(wire
 		(pts
@@ -4616,16 +4626,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 127) (xy 251.46 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cabb749-3f44-4172-a908-aa2649e74e87")
-	)
-	(wire
-		(pts
 			(xy 251.46 111.76) (xy 255.27 111.76)
 		)
 		(stroke
@@ -4686,16 +4686,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 135.89) (xy 252.73 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0e74c2-9e06-4a47-b131-78f93334997b")
-	)
-	(wire
-		(pts
 			(xy 247.65 52.07) (xy 248.92 52.07)
 		)
 		(stroke
@@ -4713,16 +4703,6 @@
 			(type default)
 		)
 		(uuid "2cfbcebe-c29a-43d4-bf60-a22db5f32595")
-	)
-	(wire
-		(pts
-			(xy 251.46 140.97) (xy 261.62 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e1c2b14-d9f5-4014-9974-64c08c0b92f5")
 	)
 	(wire
 		(pts
@@ -5346,6 +5326,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 127) (xy 252.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c7d5cc-d934-4847-a5dc-14946f7b0c3f")
+	)
+	(wire
+		(pts
 			(xy 93.98 121.92) (xy 96.52 121.92)
 		)
 		(stroke
@@ -5526,6 +5516,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 119.38) (xy 252.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83771c75-4bc9-4acd-83f9-384b75ddbae8")
+	)
+	(wire
+		(pts
 			(xy 88.9 67.31) (xy 90.17 67.31)
 		)
 		(stroke
@@ -5616,7 +5616,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 127) (xy 261.62 127)
+			(xy 260.35 119.38) (xy 261.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5856,13 +5856,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 119.38) (xy 251.46 119.38)
+			(xy 251.46 135.89) (xy 261.62 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8afdfdb-3fd8-4191-bd9b-a798b2ac2033")
+		(uuid "a882aae4-63a7-471c-a75a-71b59f5ba653")
 	)
 	(wire
 		(pts
@@ -6036,7 +6036,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 119.38) (xy 261.62 119.38)
+			(xy 260.35 127) (xy 261.62 127)
 		)
 		(stroke
 			(width 0)
@@ -6517,7 +6517,7 @@
 	)
 	(hierarchical_label "RF_CSN"
 		(shape input)
-		(at 261.62 135.89 0)
+		(at 261.62 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6583,7 +6583,7 @@
 	)
 	(hierarchical_label "RF_GDO0"
 		(shape input)
-		(at 261.62 140.97 0)
+		(at 261.62 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6792,7 +6792,7 @@
 	)
 	(hierarchical_label "MOSI1"
 		(shape input)
-		(at 261.62 127 0)
+		(at 261.62 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6803,7 +6803,7 @@
 	)
 	(hierarchical_label "SCK1"
 		(shape input)
-		(at 261.62 119.38 0)
+		(at 261.62 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7034,7 +7034,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 135.89 270)
+		(at 256.54 140.97 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7044,7 +7044,7 @@
 		(dnp no)
 		(uuid "06c6e8c2-341f-4351-9d60-5473c8c48768")
 		(property "Reference" "R16"
-			(at 254.508 135.89 90)
+			(at 254.508 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7055,7 +7055,7 @@
 			)
 		)
 		(property "Value" "33 Ω"
-			(at 253.746 137.922 90)
+			(at 253.746 143.002 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7066,7 +7066,7 @@
 			)
 		)
 		(property "Footprint" "main_pcb:R_1206_3216Metric"
-			(at 256.54 134.112 90)
+			(at 256.54 139.192 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,7 +7077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 135.89 0)
+			(at 256.54 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7088,7 +7088,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 135.89 0)
+			(at 256.54 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7882,7 +7882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
 			(at 228.6 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8209,7 +8209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
 			(at 45.72 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8722,7 +8722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
 			(at 255.27 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9358,7 +9358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
 			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9909,7 +9909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 96.52 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10038,7 +10038,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 127 270)
+		(at 256.54 119.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10048,7 +10048,7 @@
 		(dnp no)
 		(uuid "a1a2448b-abb9-4bd5-9040-49607a13418a")
 		(property "Reference" "R17"
-			(at 254.508 127 90)
+			(at 254.508 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10059,7 +10059,7 @@
 			)
 		)
 		(property "Value" "33 Ω"
-			(at 254.254 124.968 90)
+			(at 254 121.412 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10070,7 +10070,7 @@
 			)
 		)
 		(property "Footprint" "main_pcb:R_1206_3216Metric"
-			(at 256.54 125.222 90)
+			(at 256.54 117.602 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10081,7 +10081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 127 0)
+			(at 256.54 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10092,7 +10092,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 127 0)
+			(at 256.54 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10549,7 +10549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
 			(at 100.33 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10709,7 +10709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10867,7 +10867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
 			(at 260.35 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11313,7 +11313,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 119.38 270)
+		(at 256.54 127 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11323,7 +11323,7 @@
 		(dnp no)
 		(uuid "d56a206b-a60d-4568-9c1e-9b95d0dcf1b3")
 		(property "Reference" "R15"
-			(at 254.508 119.38 90)
+			(at 254.508 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11334,7 +11334,7 @@
 			)
 		)
 		(property "Value" "33 Ω"
-			(at 254 121.666 90)
+			(at 254 124.968 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11345,7 +11345,7 @@
 			)
 		)
 		(property "Footprint" "main_pcb:R_1206_3216Metric"
-			(at 256.54 117.602 90)
+			(at 256.54 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11356,7 +11356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 119.38 0)
+			(at 256.54 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11367,7 +11367,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 119.38 0)
+			(at 256.54 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11378,7 +11378,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 256.54 119.38 90)
+			(at 256.54 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11389,7 +11389,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 256.54 119.38 90)
+			(at 256.54 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11400,7 +11400,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 256.54 119.38 90)
+			(at 256.54 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12493,7 +12493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
 			(at 114.3 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12572,7 +12572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "main_pcb:CC1101"
 			(at 251.46 58.42 0)
 			(hide yes)
 			(show_name no)

@@ -1407,7 +1407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "main_pcb:CC1101"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
