@@ -12,7 +12,7 @@
 - [Opening the Project](#opening-the-project)
 - [Manufacturing](#manufacturing)
 - [Design Notes](#design-notes)
-- [License](#license)
+- [Tech used](#tech-used)
 
 ---
 
@@ -91,6 +91,6 @@ The generated Gerbers can be uploaded directly to:
 
 ---
 
-## License
+## Tech used
 
-Hardware design files are released under the [CERN Open Hardware Licence v2 — Permissive](https://ohwr.org/cern_ohl_p_v2.txt).
+[![KiCad](https://img.shields.io/badge/kicad-%23314CB0.svg?style=for-the-badge&logo=kicad&logoColor=white)](https://www.kicad.org/)  
